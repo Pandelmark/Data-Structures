@@ -1,3 +1,5 @@
+// this file is where the attributes of the stack are declared through the use
+// of the STACK structure
 struct STACK{
 	int *mat;
 	int head;
