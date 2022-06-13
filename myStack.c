@@ -17,6 +17,7 @@ int push(struct STACK *st, int elem){
 	return 1;
 }
 
+//the function where elements are removed (poped) from the stack
 int pop(struct STACK *st, int *elem){
 	if(st->head == 0)
 		return 0;
